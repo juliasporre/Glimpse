@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 944f67896a32c514e90cc069a14b2b54
+guid: 55e089b65ade61044a3cd94b6f07704d
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
@@ -45,7 +45,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 5
+  textureType: -1
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2

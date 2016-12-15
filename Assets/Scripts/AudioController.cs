@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Vuforia;
 
-public class AudioController : MonoBehaviour {
+public class AudioController : MonoBehaviour, ITrackableEventHandler {
 
 	private AudioSource[] audios;
 	private AudioSource townAudio;
@@ -11,18 +12,17 @@ public class AudioController : MonoBehaviour {
 	private Vector3 cameraPos;
 	private Vector3 windowPos;
 
+	private TrackableBehaviour mTrackableBehaviour;
+
 
 	// Use this for initialization
 	void Start () {
 		audios = GetComponents<AudioSource> ();
-		townAudio = audios [0];
-		birdAudio = audios [1];
-		audienceAudio = audios [2];
 
-
-		foreach (AudioSource audio in audios) {
-			audio.Play ();
-			audio.volume = 0f;
+		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
+		if (mTrackableBehaviour)
+		{
+			mTrackableBehaviour.RegisterTrackableEventHandler(this);
 		}
 
 	}
@@ -31,19 +31,37 @@ public class AudioController : MonoBehaviour {
 	void Update () {
 
 		cameraPos = GameObject.Find ("Camera").transform.position;
-		windowPos = transform.parent.gameObject.transform.position;
+		windowPos = transform.position;
 	
 		float distance = Vector3.Distance (cameraPos, windowPos);
-
-
-		Debug.Log ("CameraPos : " + cameraPos);
-		Debug.Log ("windowPos : " + windowPos);
-		Debug.Log ("Distance: " + distance);
 
 		if (distance < 2.75f) {
 			foreach (AudioSource audio in audios) {
 				audio.volume = 1f - distance / 2.75f;
 			}
 		}
+
 	}
+
+	public void OnTrackableStateChanged(
+		TrackableBehaviour.Status previousStatus,
+		TrackableBehaviour.Status newStatus)
+	{
+		if (newStatus == TrackableBehaviour.Status.DETECTED ||
+			newStatus == TrackableBehaviour.Status.TRACKED ||
+			newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
+		{
+			// Play audio when target is found
+			foreach (AudioSource audio in audios)
+				audio.Play ();
+		}
+		else
+		{
+			// Stop audio when target is lost
+			foreach (AudioSource audio in audios)
+				audio.Stop();
+		}
+	}
+
+
 }

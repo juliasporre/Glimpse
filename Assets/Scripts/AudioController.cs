@@ -40,9 +40,9 @@ public class AudioController : MonoBehaviour {
 		Debug.Log ("windowPos : " + windowPos);
 		Debug.Log ("Distance: " + distance);
 
-		if (distance < 40f) {
+		if (distance < 2.75f) {
 			foreach (AudioSource audio in audios) {
-				audio.volume = 1f - distance / 40f;
+				audio.volume = 1f - distance / 2.75f;
 			}
 		}
 	}

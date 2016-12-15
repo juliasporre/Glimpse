@@ -31,7 +31,7 @@ public class AudioController : MonoBehaviour {
 	void Update () {
 
 		cameraPos = GameObject.Find ("Camera").transform.position;
-		windowPos = GameObject.Find ("woodenframe2").transform.position;
+		windowPos = transform.parent.gameObject.transform.position;
 	
 		float distance = Vector3.Distance (cameraPos, windowPos);
 

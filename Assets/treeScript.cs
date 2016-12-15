@@ -2,9 +2,11 @@
 using System.Collections;
 
 public class treeScript : MonoBehaviour {
+
+	public GameObject lookAt;
 	
 	// Update is called once per frame
 	void Start () {
-		transform.LookAt (GameObject.Find("woodenframe2").transform.position);
+		transform.LookAt (lookAt.transform.position);
 	}
 }

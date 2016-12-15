@@ -30,16 +30,19 @@ public class AudioController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		cameraPos = GameObject.Find ("ARCamera").transform.position;
+		cameraPos = GameObject.Find ("Camera").transform.position;
 		windowPos = GameObject.Find ("woodenframe2").transform.position;
 	
 		float distance = Vector3.Distance (cameraPos, windowPos);
 
 
-		if (distance < 5f) {
+		Debug.Log ("CameraPos : " + cameraPos);
+		Debug.Log ("windowPos : " + windowPos);
+		Debug.Log ("Distance: " + distance);
+
+		if (distance < 40f) {
 			foreach (AudioSource audio in audios) {
-				audio.volume = 1.0f - distance / 5f;
-				audio.Play ();
+				audio.volume = 1f - distance / 40f;
 			}
 		}
 	}

@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 510daa25473345c42bd42d51efdf5fe6
+timeCreated: 1481828473
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube.000
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.006
+    100014: Cube.007
+    100016: Cube.008
+    100018: Cube.036
+    100020: Cube.037
+    100022: Cube.038
+    100024: Cube.039
+    100026: Cube.040
+    100028: Cube.041
+    100030: Cube.042
+    100032: Cube.043
+    100034: Cube.044
+    100036: Cube.045
+    100038: Cube.046
+    100040: Cube.047
+    100042: Cube.048
+    100044: Cube.049
+    100046: Cube.050
+    100048: Cube.051
+    100050: Cube.052
+    100052: Cube.053
+    100054: Cube.054
+    100056: Cube.055
+    100058: Cube.056
+    100060: Cube.057
+    100062: Cube.058
+    100064: Cube.059
+    100066: Cube.060
+    100068: Cube.061
+    100070: Cube.062
+    100072: Cube.063
+    100074: Cube.064
+    100076: Cube.065
+    100078: Door
+    100080: Fune
+    100082: Fune.005
+    100084: Fune.007
+    100086: Fune.009
+    100088: House
+    100090: Plane
+    100092: Plane.001
+    100094: Plane.002
+    100096: Roof
+    100098: Windmill
+    100100: //RootNode
+    400000: Cube.000
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.006
+    400014: Cube.007
+    400016: Cube.008
+    400018: Cube.036
+    400020: Cube.037
+    400022: Cube.038
+    400024: Cube.039
+    400026: Cube.040
+    400028: Cube.041
+    400030: Cube.042
+    400032: Cube.043
+    400034: Cube.044
+    400036: Cube.045
+    400038: Cube.046
+    400040: Cube.047
+    400042: Cube.048
+    400044: Cube.049
+    400046: Cube.050
+    400048: Cube.051
+    400050: Cube.052
+    400052: Cube.053
+    400054: Cube.054
+    400056: Cube.055
+    400058: Cube.056
+    400060: Cube.057
+    400062: Cube.058
+    400064: Cube.059
+    400066: Cube.060
+    400068: Cube.061
+    400070: Cube.062
+    400072: Cube.063
+    400074: Cube.064
+    400076: Cube.065
+    400078: Door
+    400080: Fune
+    400082: Fune.005
+    400084: Fune.007
+    400086: Fune.009
+    400088: House
+    400090: Plane
+    400092: Plane.001
+    400094: Plane.002
+    400096: Roof
+    400098: Windmill
+    400100: //RootNode
+    2300000: Cube.000
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.006
+    2300014: Cube.007
+    2300016: Cube.008
+    2300018: Cube.036
+    2300020: Cube.037
+    2300022: Cube.038
+    2300024: Cube.039
+    2300026: Cube.040
+    2300028: Cube.041
+    2300030: Cube.042
+    2300032: Cube.043
+    2300034: Cube.044
+    2300036: Cube.045
+    2300038: Cube.046
+    2300040: Cube.047
+    2300042: Cube.048
+    2300044: Cube.049
+    2300046: Cube.050
+    2300048: Cube.051
+    2300050: Cube.052
+    2300052: Cube.053
+    2300054: Cube.054
+    2300056: Cube.055
+    2300058: Cube.056
+    2300060: Cube.057
+    2300062: Cube.058
+    2300064: Cube.059
+    2300066: Cube.060
+    2300068: Cube.061
+    2300070: Cube.062
+    2300072: Cube.063
+    2300074: Cube.064
+    2300076: Cube.065
+    2300078: Door
+    2300080: Fune
+    2300082: Fune.005
+    2300084: Fune.007
+    2300086: Fune.009
+    2300088: House
+    2300090: Plane
+    2300092: Plane.001
+    2300094: Plane.002
+    2300096: Roof
+    2300098: Windmill
+    3300000: Cube.000
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.006
+    3300014: Cube.007
+    3300016: Cube.008
+    3300018: Cube.036
+    3300020: Cube.037
+    3300022: Cube.038
+    3300024: Cube.039
+    3300026: Cube.040
+    3300028: Cube.041
+    3300030: Cube.042
+    3300032: Cube.043
+    3300034: Cube.044
+    3300036: Cube.045
+    3300038: Cube.046
+    3300040: Cube.047
+    3300042: Cube.048
+    3300044: Cube.049
+    3300046: Cube.050
+    3300048: Cube.051
+    3300050: Cube.052
+    3300052: Cube.053
+    3300054: Cube.054
+    3300056: Cube.055
+    3300058: Cube.056
+    3300060: Cube.057
+    3300062: Cube.058
+    3300064: Cube.059
+    3300066: Cube.060
+    3300068: Cube.061
+    3300070: Cube.062
+    3300072: Cube.063
+    3300074: Cube.064
+    3300076: Cube.065
+    3300078: Door
+    3300080: Fune
+    3300082: Fune.005
+    3300084: Fune.007
+    3300086: Fune.009
+    3300088: House
+    3300090: Plane
+    3300092: Plane.001
+    3300094: Plane.002
+    3300096: Roof
+    3300098: Windmill
+    4300000: Windmill
+    4300002: Fune
+    4300004: Cube.001
+    4300006: Cube.002
+    4300008: Cube.003
+    4300010: Cube.004
+    4300012: Cube.005
+    4300014: Cube.006
+    4300016: Cube.007
+    4300018: Cube.000
+    4300020: Cube.008
+    4300022: Fune.005
+    4300024: Cube.039
+    4300026: Cube.040
+    4300028: Cube.041
+    4300030: Cube.042
+    4300032: Cube.043
+    4300034: Cube.044
+    4300036: Cube.045
+    4300038: Cube.046
+    4300040: Cube.047
+    4300042: Fune.007
+    4300044: Cube.048
+    4300046: Cube.049
+    4300048: Cube.050
+    4300050: Cube.051
+    4300052: Cube.052
+    4300054: Cube.053
+    4300056: Cube.054
+    4300058: Cube.055
+    4300060: Cube.056
+    4300062: Fune.009
+    4300064: Cube.057
+    4300066: Cube.058
+    4300068: Cube.059
+    4300070: Cube.060
+    4300072: Cube.061
+    4300074: Cube.062
+    4300076: Cube.063
+    4300078: Cube.064
+    4300080: Cube.065
+    4300082: House
+    4300084: Door
+    4300086: Cube.038
+    4300088: Cube.037
+    4300090: Cube.036
+    4300092: Roof
+    4300094: Plane.002
+    4300096: Plane
+    4300098: Plane.001
+    7400000: Windmill|WindmillAction.002
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Windmill|WindmillAction.002
+      takeName: Windmill|WindmillAction.002
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: House
+        weight: 1
+      - path: House/Door
+        weight: 1
+      - path: House/Door/Cube.036
+        weight: 1
+      - path: House/Door/Cube.037
+        weight: 1
+      - path: House/Door/Cube.038
+        weight: 1
+      - path: House/Roof
+        weight: 1
+      - path: House/Roof/Plane
+        weight: 1
+      - path: House/Roof/Plane.001
+        weight: 1
+      - path: House/Roof/Plane.002
+        weight: 1
+      - path: Windmill
+        weight: 1
+      - path: Windmill/Fune
+        weight: 1
+      - path: Windmill/Fune/Cube.000
+        weight: 1
+      - path: Windmill/Fune/Cube.001
+        weight: 1
+      - path: Windmill/Fune/Cube.002
+        weight: 1
+      - path: Windmill/Fune/Cube.003
+        weight: 1
+      - path: Windmill/Fune/Cube.004
+        weight: 1
+      - path: Windmill/Fune/Cube.005
+        weight: 1
+      - path: Windmill/Fune/Cube.006
+        weight: 1
+      - path: Windmill/Fune/Cube.007
+        weight: 1
+      - path: Windmill/Fune/Cube.008
+        weight: 1
+      - path: Windmill/Fune.005
+        weight: 1
+      - path: Windmill/Fune.005/Cube.039
+        weight: 1
+      - path: Windmill/Fune.005/Cube.040
+        weight: 1
+      - path: Windmill/Fune.005/Cube.041
+        weight: 1
+      - path: Windmill/Fune.005/Cube.042
+        weight: 1
+      - path: Windmill/Fune.005/Cube.043
+        weight: 1
+      - path: Windmill/Fune.005/Cube.044
+        weight: 1
+      - path: Windmill/Fune.005/Cube.045
+        weight: 1
+      - path: Windmill/Fune.005/Cube.046
+        weight: 1
+      - path: Windmill/Fune.005/Cube.047
+        weight: 1
+      - path: Windmill/Fune.007
+        weight: 1
+      - path: Windmill/Fune.007/Cube.048
+        weight: 1
+      - path: Windmill/Fune.007/Cube.049
+        weight: 1
+      - path: Windmill/Fune.007/Cube.050
+        weight: 1
+      - path: Windmill/Fune.007/Cube.051
+        weight: 1
+      - path: Windmill/Fune.007/Cube.052
+        weight: 1
+      - path: Windmill/Fune.007/Cube.053
+        weight: 1
+      - path: Windmill/Fune.007/Cube.054
+        weight: 1
+      - path: Windmill/Fune.007/Cube.055
+        weight: 1
+      - path: Windmill/Fune.007/Cube.056
+        weight: 1
+      - path: Windmill/Fune.009
+        weight: 1
+      - path: Windmill/Fune.009/Cube.057
+        weight: 1
+      - path: Windmill/Fune.009/Cube.058
+        weight: 1
+      - path: Windmill/Fune.009/Cube.059
+        weight: 1
+      - path: Windmill/Fune.009/Cube.060
+        weight: 1
+      - path: Windmill/Fune.009/Cube.061
+        weight: 1
+      - path: Windmill/Fune.009/Cube.062
+        weight: 1
+      - path: Windmill/Fune.009/Cube.063
+        weight: 1
+      - path: Windmill/Fune.009/Cube.064
+        weight: 1
+      - path: Windmill/Fune.009/Cube.065
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
